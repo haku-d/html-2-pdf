@@ -16,6 +16,11 @@ export class AppController {
   constructor(private readonly appService: AppService) {
     //
   }
+  
+  @Get()
+  index(): string {
+    return 'HTML 2 PDF';
+  }
 
   @Post()
   @Header('Content-type', 'application/pdf')
