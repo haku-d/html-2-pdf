@@ -29,7 +29,7 @@ The service only exposes 2 endpoints.
 | POST       | /       | Main endpoint to generate pdf file from html content. HTML content can be provided by request param or file |
 
 ```bash
-curl --location --request POST 'http://localhost:3005?content=Hello world'
+curl --location --request POST 'http://localhost:5000?content=Hello world'
 ```
 
 ```bash
